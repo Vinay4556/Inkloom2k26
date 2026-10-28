@@ -5,8 +5,8 @@
 Inkloom transforms scattered brand guidelines into structured, enforceable rules. Review every piece of content against your brand voice, catch inconsistencies before they ship, and give your team the evidence they need to make confident decisions.
 
 [![Live Demo](https://img.shields.io/badge/🎯-Live_Demo-6BA37A?style=for-the-badge)](https://frontend-gamma-sand-16.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Inloom2k26-black?style=for-the-badge&logo=github)](https://github.com/Vinay4556/Inloom2k26)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inloom2k26&project-name=inkloom&root-directory=frontend)
+[![GitHub](https://img.shields.io/badge/GitHub-Inkloom2k26-black?style=for-the-badge&logo=github)](https://github.com/Vinay4556/Inkloom2k26)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inkloom2k26&project-name=inkloom&root-directory=frontend)
 [![Built with Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 [![React Three Fiber](https://img.shields.io/badge/R3F-9.8-purple?style=flat-square)](https://docs.pmnd.rs/react-three-fiber)
@@ -81,7 +81,7 @@ Content comes from everywhere—drafts, agencies, internal teams, contractors. E
 
 ```bash
 # Prerequisites: Node.js 22.18+
-git clone https://github.com/Vinay4556/Inloom2k26.git
+git clone https://github.com/Vinay4556/Inkloom2k26.git
 cd inkloom-fullstack
 
 # Install dependencies
@@ -416,7 +416,7 @@ curl -X POST http://localhost:3000/api/reviews \
 
 **Deploy in 5 minutes:**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inloom2k26&project-name=inkloom&root-directory=frontend)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inkloom2k26&project-name=inkloom&root-directory=frontend)
 
 **Or manually:**
 
@@ -603,7 +603,7 @@ MIT License - See `LICENSE` file for details.
 
 **[→ Try Inkloom Live](https://frontend-gamma-sand-16.vercel.app)**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inloom2k26)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inkloom2k26)
 
 Built with ❤️ by **NEURAL NETWORK**
 

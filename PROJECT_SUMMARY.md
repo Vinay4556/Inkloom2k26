@@ -3,7 +3,7 @@
 ## 🎯 Hackathon Submission 2026
 
 **Live Demo:** https://frontend-gamma-sand-16.vercel.app  
-**GitHub Repository:** https://github.com/Vinay4556/Inloom2k26  
+**GitHub Repository:** https://github.com/Vinay4556/Inkloom2k26  
 **Deployment Platform:** Vercel (Production)
 
 ---
@@ -112,7 +112,7 @@ analyze(text: string, rules: EngineRule[]): AnalysisResult
 ### Project Structure
 
 ```
-Inloom2k26/
+Inkloom2k26/
 ├── frontend/                    # Next.js application
 │   ├── src/
 │   │   ├── app/                # App router pages
@@ -361,7 +361,7 @@ vercel --prod --yes
 ## 📞 Contact & Links
 
 **Live Demo:** https://frontend-gamma-sand-16.vercel.app  
-**GitHub:** https://github.com/Vinay4556/Inloom2k26  
+**GitHub:** https://github.com/Vinay4556/Inkloom2k26  
 **Maintainer:** Vinay4556
 
 **Test Credentials:**

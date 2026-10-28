@@ -7,8 +7,8 @@ Thank you for your interest in contributing to Inkloom! This document provides g
 1. **Fork the repository**
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Inloom2k26.git
-   cd Inloom2k26
+   git clone https://github.com/YOUR-USERNAME/Inkloom2k26.git
+   cd Inkloom2k26
    ```
 
 3. **Install dependencies:**
@@ -101,7 +101,7 @@ We welcome feature requests! Please:
 ## 📚 Project Structure
 
 ```
-Inloom2k26/
+Inkloom2k26/
 ├── frontend/          # Next.js app
 │   ├── src/
 │   │   ├── app/       # Pages and API routes
@@ -132,7 +132,7 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ## 💬 Questions?
 
-- Open a [GitHub Discussion](https://github.com/Vinay4556/Inloom2k26/discussions)
+- Open a [GitHub Discussion](https://github.com/Vinay4556/Inkloom2k26/discussions)
 - Check existing issues
 - Contact the maintainers
 

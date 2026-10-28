@@ -9,8 +9,8 @@
 ## 📦 Repository Details
 
 ### GitHub Repository
-- **Name:** Inloom2k26
-- **URL:** https://github.com/Vinay4556/Inloom2k26
+- **Name:** Inkloom2k26
+- **URL:** https://github.com/Vinay4556/Inkloom2k26
 - **Visibility:** Public ✅
 - **Owner:** Vinay4556
 - **License:** MIT
@@ -57,7 +57,7 @@ de32492 - chore: Add LICENSE, CONTRIBUTING.md, and GitHub funding config
 ## 📁 Repository Structure
 
 ```
-Inloom2k26/
+Inkloom2k26/
 ├── .github/
 │   └── FUNDING.yml              # GitHub sponsorship config
 ├── frontend/                    # Next.js application (deployed)
@@ -114,22 +114,22 @@ Inloom2k26/
 
 ### For Judges
 - **Live Demo:** https://frontend-gamma-sand-16.vercel.app
-- **GitHub Repo:** https://github.com/Vinay4556/Inloom2k26
-- **Judge Guide:** [HACKATHON_JUDGE_GUIDE.md](https://github.com/Vinay4556/Inloom2k26/blob/master/HACKATHON_JUDGE_GUIDE.md)
-- **Presentation:** [HACKATHON_PRESENTATION.md](https://github.com/Vinay4556/Inloom2k26/blob/master/HACKATHON_PRESENTATION.md)
+- **GitHub Repo:** https://github.com/Vinay4556/Inkloom2k26
+- **Judge Guide:** [HACKATHON_JUDGE_GUIDE.md](https://github.com/Vinay4556/Inkloom2k26/blob/master/HACKATHON_JUDGE_GUIDE.md)
+- **Presentation:** [HACKATHON_PRESENTATION.md](https://github.com/Vinay4556/Inkloom2k26/blob/master/HACKATHON_PRESENTATION.md)
 
 ### For Developers
 - **Clone Command:**
   ```bash
-  git clone https://github.com/Vinay4556/Inloom2k26.git
+  git clone https://github.com/Vinay4556/Inkloom2k26.git
   ```
-- **Contributing:** [CONTRIBUTING.md](https://github.com/Vinay4556/Inloom2k26/blob/master/CONTRIBUTING.md)
-- **Project Summary:** [PROJECT_SUMMARY.md](https://github.com/Vinay4556/Inloom2k26/blob/master/PROJECT_SUMMARY.md)
+- **Contributing:** [CONTRIBUTING.md](https://github.com/Vinay4556/Inkloom2k26/blob/master/CONTRIBUTING.md)
+- **Project Summary:** [PROJECT_SUMMARY.md](https://github.com/Vinay4556/Inkloom2k26/blob/master/PROJECT_SUMMARY.md)
 
 ### Social Sharing
-- **GitHub URL:** https://github.com/Vinay4556/Inloom2k26
-- **Twitter Share:** [Share on Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Inkloom%20-%20AI-Powered%20Brand%20Consistency%20Platform&url=https://github.com/Vinay4556/Inloom2k26)
-- **LinkedIn Share:** [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Vinay4556/Inloom2k26)
+- **GitHub URL:** https://github.com/Vinay4556/Inkloom2k26
+- **Twitter Share:** [Share on Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Inkloom%20-%20AI-Powered%20Brand%20Consistency%20Platform&url=https://github.com/Vinay4556/Inkloom2k26)
+- **LinkedIn Share:** [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Vinay4556/Inkloom2k26)
 
 ---
 
@@ -159,7 +159,7 @@ Clone the repository and:
 ### 4. Deploy Your Own Instance
 Use the "Deploy with Vercel" button in README.md:
 ```
-https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inloom2k26
+https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inkloom2k26
 ```
 
 ### 5. Contribute Back
@@ -253,13 +253,13 @@ https://vercel.com/new/clone?repository-url=https://github.com/Vinay4556/Inloom2
 ## 📞 Support & Contact
 
 ### Repository Issues
-- **Bug Reports:** [Create Issue](https://github.com/Vinay4556/Inloom2k26/issues/new)
-- **Feature Requests:** [Create Discussion](https://github.com/Vinay4556/Inloom2k26/discussions)
+- **Bug Reports:** [Create Issue](https://github.com/Vinay4556/Inkloom2k26/issues/new)
+- **Feature Requests:** [Create Discussion](https://github.com/Vinay4556/Inkloom2k26/discussions)
 - **Questions:** Check existing issues or start a discussion
 
 ### Maintainer
 - **GitHub:** @Vinay4556
-- **Repository:** https://github.com/Vinay4556/Inloom2k26
+- **Repository:** https://github.com/Vinay4556/Inkloom2k26
 
 ---
 
@@ -316,7 +316,7 @@ Your Inkloom project is now:
 
 **Created:** October 27, 2026  
 **Status:** ✅ Deployment Complete  
-**Repository:** https://github.com/Vinay4556/Inloom2k26  
+**Repository:** https://github.com/Vinay4556/Inkloom2k26  
 **Live Demo:** https://frontend-gamma-sand-16.vercel.app
 
 🎉 **Congratulations on completing your deployment!** 🎉
