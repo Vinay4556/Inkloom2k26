@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "organizations": [
+    {
+      "id": "org_demo",
+      "name": "Inkloom Demo Workspace",
+      "createdAt": "2026-10-27T05:25:59.454Z",
+      "updatedAt": "2026-10-27T05:25:59.454Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_demo_reviewer",
+      "email": "demo-reviewer@example.invalid",
+      "displayName": "Demo reviewer",
+      "createdAt": "2026-10-27T05:25:59.454Z"
+    }
+  ],
+  "memberships": [
+    {
+      "userId": "user_demo_reviewer",
+      "orgId": "org_demo",
+      "role": "owner",
+      "createdAt": "2026-10-27T05:25:59.454Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "morrow-goods",
+      "orgId": "org_demo",
+      "name": "Morrow Goods",
+      "description": "Fictional demo brand — a home and lifestyle goods company. These rules are illustrative demo rules, not verified facts about a real company.",
+      "tone": "Warm, clear, and practical.",
+      "isDemo": true,
+      "createdAt": "2026-10-27T05:25:59.454Z",
+      "updatedAt": "2026-10-27T05:25:59.454Z"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule_morrow-goods_absolute-environmental-claim",
+      "brandId": "morrow-goods",
+      "stableId": "absolute-environmental-claim",
+      "name": "Absolute Environmental Claim",
+      "type": "absolute-claim",
+      "description": "Absolute environmental claims like '100% sustainable' or 'zero impact' are difficult to substantiate and may mislead consumers. Regulatory guidance (e.g., FTC Green Guides, UK CMA) recommends specific, qualified claims instead.",
+      "severity": "error",
+      "patterns": [
+        "100% sustainable",
+        "zero impact",
+        "completely eco-friendly",
+        "totally green",
+        "fully carbon neutral",
+        "100% biodegradable",
+        "zero waste"
+      ],
+      "suggestion": "Replace with specific, measurable claims (e.g., 'made with 80% recycled materials' or 'reduces packaging waste by 40%').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T05:25:59.454Z",
+      "updatedAt": "2026-10-27T05:25:59.454Z"
+    },
+    {
+      "id": "rule_morrow-goods_restricted-phrases",
+      "brandId": "morrow-goods",
+      "stableId": "restricted-phrases",
+      "name": "Restricted Phrases",
+      "type": "restricted-phrase",
+      "description": "Words like 'guaranteed', 'miracle', and 'risk-free' imply absolute certainty that rarely exists in practice. These trigger mandatory human review per Morrow Goods policy.",
+      "severity": "error",
+      "patterns": [
+        "guaranteed",
+        "miracle",
+        "risk-free"
+      ],
+      "suggestion": "Use qualified language (e.g., 'designed to reduce risk', 'clinically tested', 'backed by our warranty').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T05:25:59.454Z",
+      "updatedAt": "2026-10-27T05:25:59.454Z"
+    },
+    {
+      "id": "rule_morrow-goods_vague-superlatives",
+      "brandId": "morrow-goods",
+      "stableId": "vague-superlatives",
+      "name": "Vague Superlatives",
+      "type": "vague-superlative",
+      "description": "Vague superlatives cannot be verified and may appear as puffery. Morrow Goods tone prefers specific, grounded language.",
+      "severity": "warning",
+      "patterns": [
+        "best in class",
+        "world-class",
+        "unparalleled",
+        "unmatched",
+        "revolutionary",
+        "game-changing",
+        "unbeatable"
+      ],
+      "suggestion": "Replace with concrete differentiators (e.g., 'rated 4.8/5 by 2,000+ customers', 'uses 30% less energy than standard models').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T05:25:59.454Z",
+      "updatedAt": "2026-10-27T05:25:59.454Z"
+    }
+  ],
+  "reviews": []
+}

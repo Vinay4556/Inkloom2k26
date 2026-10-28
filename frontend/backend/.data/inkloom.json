@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "organizations": [
+    {
+      "id": "org_demo",
+      "name": "Inkloom Demo Workspace",
+      "createdAt": "2026-10-27T18:18:20.944Z",
+      "updatedAt": "2026-10-27T18:18:20.944Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_demo_reviewer",
+      "email": "demo-reviewer@example.invalid",
+      "displayName": "Demo reviewer",
+      "createdAt": "2026-10-27T18:18:20.944Z"
+    }
+  ],
+  "memberships": [
+    {
+      "userId": "user_demo_reviewer",
+      "orgId": "org_demo",
+      "role": "owner",
+      "createdAt": "2026-10-27T18:18:20.944Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "morrow-goods",
+      "orgId": "org_demo",
+      "name": "Morrow Goods",
+      "description": "Fictional demo brand — a home and lifestyle goods company. These rules are illustrative demo rules, not verified facts about a real company.",
+      "tone": "Warm, clear, and practical.",
+      "isDemo": true,
+      "createdAt": "2026-10-27T18:18:20.944Z",
+      "updatedAt": "2026-10-27T18:18:20.944Z"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule_morrow-goods_absolute-environmental-claim",
+      "brandId": "morrow-goods",
+      "stableId": "absolute-environmental-claim",
+      "name": "Absolute Environmental Claim",
+      "type": "absolute-claim",
+      "description": "Absolute environmental claims like '100% sustainable' or 'zero impact' are difficult to substantiate and may mislead consumers. Regulatory guidance (e.g., FTC Green Guides, UK CMA) recommends specific, qualified claims instead.",
+      "severity": "error",
+      "patterns": [
+        "100% sustainable",
+        "zero impact",
+        "completely eco-friendly",
+        "totally green",
+        "fully carbon neutral",
+        "100% biodegradable",
+        "zero waste"
+      ],
+      "suggestion": "Replace with specific, measurable claims (e.g., 'made with 80% recycled materials' or 'reduces packaging waste by 40%').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T18:18:20.944Z",
+      "updatedAt": "2026-10-27T18:18:20.944Z"
+    },
+    {
+      "id": "rule_morrow-goods_restricted-phrases",
+      "brandId": "morrow-goods",
+      "stableId": "restricted-phrases",
+      "name": "Restricted Phrases",
+      "type": "restricted-phrase",
+      "description": "Words like 'guaranteed', 'miracle', and 'risk-free' imply absolute certainty that rarely exists in practice. These trigger mandatory human review per Morrow Goods policy.",
+      "severity": "error",
+      "patterns": [
+        "guaranteed",
+        "miracle",
+        "risk-free"
+      ],
+      "suggestion": "Use qualified language (e.g., 'designed to reduce risk', 'clinically tested', 'backed by our warranty').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T18:18:20.944Z",
+      "updatedAt": "2026-10-27T18:18:20.944Z"
+    },
+    {
+      "id": "rule_morrow-goods_vague-superlatives",
+      "brandId": "morrow-goods",
+      "stableId": "vague-superlatives",
+      "name": "Vague Superlatives",
+      "type": "vague-superlative",
+      "description": "Vague superlatives cannot be verified and may appear as puffery. Morrow Goods tone prefers specific, grounded language.",
+      "severity": "warning",
+      "patterns": [
+        "best in class",
+        "world-class",
+        "unparalleled",
+        "unmatched",
+        "revolutionary",
+        "game-changing",
+        "unbeatable"
+      ],
+      "suggestion": "Replace with concrete differentiators (e.g., 'rated 4.8/5 by 2,000+ customers', 'uses 30% less energy than standard models').",
+      "enabled": true,
+      "version": 1,
+      "createdAt": "2026-10-27T18:18:20.944Z",
+      "updatedAt": "2026-10-27T18:18:20.944Z"
+    }
+  ],
+  "reviews": [
+    {
+      "brandId": "morrow-goods",
+      "brandName": "Morrow Goods",
+      "brandIsDemo": true,
+      "createdBy": "user_demo_reviewer",
+      "ruleSnapshot": [
+        {
+          "stableId": "absolute-environmental-claim",
+          "name": "Absolute Environmental Claim",
+          "version": 1,
+          "type": "absolute-claim",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "100% sustainable",
+            "zero impact",
+            "completely eco-friendly",
+            "totally green",
+            "fully carbon neutral",
+            "100% biodegradable",
+            "zero waste"
+          ]
+        },
+        {
+          "stableId": "restricted-phrases",
+          "name": "Restricted Phrases",
+          "version": 1,
+          "type": "restricted-phrase",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "guaranteed",
+            "miracle",
+            "risk-free"
+          ]
+        },
+        {
+          "stableId": "vague-superlatives",
+          "name": "Vague Superlatives",
+          "version": 1,
+          "type": "vague-superlative",
+          "severity": "warning",
+          "enabled": true,
+          "patterns": [
+            "best in class",
+            "world-class",
+            "unparalleled",
+            "unmatched",
+            "revolutionary",
+            "game-changing",
+            "unbeatable"
+          ]
+        }
+      ],
+      "contentFingerprint": "46e76bdd23ec615be130f9201beba5679806942e4ada41de90cc9642185b7e6d",
+      "contentLength": 486,
+      "content": null,
+      "summary": {
+        "total": 1,
+        "errors": 0,
+        "warnings": 1
+      },
+      "outcome": "findings_require_review",
+      "findings": [
+        {
+          "id": "vague-superlatives:44:57",
+          "ruleStableId": "vague-superlatives",
+          "ruleVersion": 1,
+          "ruleType": "vague-superlative",
+          "severity": "warning",
+          "matchedPhrase": "revolutionary",
+          "start": 44,
+          "end": 57,
+          "explanation": "Vague superlatives cannot be verified and may appear as puffery. Morrow Goods tone prefers specific, grounded language.",
+          "suggestion": "Replace with concrete differentiators (e.g., 'rated 4.8/5 by 2,000+ customers', 'uses 30% less energy than standard models')."
+        }
+      ],
+      "id": "2b38e606-88b0-4b5f-9e03-3c9f3ac2f85a",
+      "orgId": "org_demo",
+      "createdAt": "2026-10-28T03:19:23.133Z"
+    },
+    {
+      "brandId": "morrow-goods",
+      "brandName": "Morrow Goods",
+      "brandIsDemo": true,
+      "createdBy": "user_demo_reviewer",
+      "ruleSnapshot": [
+        {
+          "stableId": "absolute-environmental-claim",
+          "name": "Absolute Environmental Claim",
+          "version": 1,
+          "type": "absolute-claim",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "100% sustainable",
+            "zero impact",
+            "completely eco-friendly",
+            "totally green",
+            "fully carbon neutral",
+            "100% biodegradable",
+            "zero waste"
+          ]
+        },
+        {
+          "stableId": "restricted-phrases",
+          "name": "Restricted Phrases",
+          "version": 1,
+          "type": "restricted-phrase",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "guaranteed",
+            "miracle",
+            "risk-free"
+          ]
+        },
+        {
+          "stableId": "vague-superlatives",
+          "name": "Vague Superlatives",
+          "version": 1,
+          "type": "vague-superlative",
+          "severity": "warning",
+          "enabled": true,
+          "patterns": [
+            "best in class",
+            "world-class",
+            "unparalleled",
+            "unmatched",
+            "revolutionary",
+            "game-changing",
+            "unbeatable"
+          ]
+        }
+      ],
+      "contentFingerprint": "b05bee721d1bb1194886e93c48c961af826e7a31993d846491f8e8c11fe8acf5",
+      "contentLength": 361,
+      "content": null,
+      "summary": {
+        "total": 0,
+        "errors": 0,
+        "warnings": 0
+      },
+      "outcome": "no_rules_triggered",
+      "findings": [],
+      "id": "68b6faf5-e415-48c0-9e7f-ade541820a57",
+      "orgId": "org_demo",
+      "createdAt": "2026-10-28T05:47:41.939Z"
+    },
+    {
+      "brandId": "morrow-goods",
+      "brandName": "Morrow Goods",
+      "brandIsDemo": true,
+      "createdBy": "user_demo_reviewer",
+      "ruleSnapshot": [
+        {
+          "stableId": "absolute-environmental-claim",
+          "name": "Absolute Environmental Claim",
+          "version": 1,
+          "type": "absolute-claim",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "100% sustainable",
+            "zero impact",
+            "completely eco-friendly",
+            "totally green",
+            "fully carbon neutral",
+            "100% biodegradable",
+            "zero waste"
+          ]
+        },
+        {
+          "stableId": "restricted-phrases",
+          "name": "Restricted Phrases",
+          "version": 1,
+          "type": "restricted-phrase",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "guaranteed",
+            "miracle",
+            "risk-free"
+          ]
+        },
+        {
+          "stableId": "vague-superlatives",
+          "name": "Vague Superlatives",
+          "version": 1,
+          "type": "vague-superlative",
+          "severity": "warning",
+          "enabled": true,
+          "patterns": [
+            "best in class",
+            "world-class",
+            "unparalleled",
+            "unmatched",
+            "revolutionary",
+            "game-changing",
+            "unbeatable"
+          ]
+        }
+      ],
+      "contentFingerprint": "a0375bf0553ef77d62ccb1476b9ffd100d87faf9f6f298bbf58b3536b54eca5a",
+      "contentLength": 147,
+      "content": null,
+      "summary": {
+        "total": 0,
+        "errors": 0,
+        "warnings": 0
+      },
+      "outcome": "no_rules_triggered",
+      "findings": [],
+      "id": "df267fdd-2642-4016-bfaf-7098e2e67777",
+      "orgId": "org_demo",
+      "createdAt": "2026-10-28T05:48:40.710Z"
+    },
+    {
+      "brandId": "morrow-goods",
+      "brandName": "Morrow Goods",
+      "brandIsDemo": true,
+      "createdBy": "user_demo_reviewer",
+      "ruleSnapshot": [
+        {
+          "stableId": "absolute-environmental-claim",
+          "name": "Absolute Environmental Claim",
+          "version": 1,
+          "type": "absolute-claim",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "100% sustainable",
+            "zero impact",
+            "completely eco-friendly",
+            "totally green",
+            "fully carbon neutral",
+            "100% biodegradable",
+            "zero waste"
+          ]
+        },
+        {
+          "stableId": "restricted-phrases",
+          "name": "Restricted Phrases",
+          "version": 1,
+          "type": "restricted-phrase",
+          "severity": "error",
+          "enabled": true,
+          "patterns": [
+            "guaranteed",
+            "miracle",
+            "risk-free"
+          ]
+        },
+        {
+          "stableId": "vague-superlatives",
+          "name": "Vague Superlatives",
+          "version": 1,
+          "type": "vague-superlative",
+          "severity": "warning",
+          "enabled": true,
+          "patterns": [
+            "best in class",
+            "world-class",
+            "unparalleled",
+            "unmatched",
+            "revolutionary",
+            "game-changing",
+            "unbeatable"
+          ]
+        }
+      ],
+      "contentFingerprint": "a0375bf0553ef77d62ccb1476b9ffd100d87faf9f6f298bbf58b3536b54eca5a",
+      "contentLength": 147,
+      "content": null,
+      "summary": {
+        "total": 0,
+        "errors": 0,
+        "warnings": 0
+      },
+      "outcome": "no_rules_triggered",
+      "findings": [],
+      "id": "73069bef-42ba-46bd-bf6b-53b33d86a298",
+      "orgId": "org_demo",
+      "createdAt": "2026-10-28T06:43:44.340Z"
+    }
+  ]
+}
